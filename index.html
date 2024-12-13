@@ -3,17 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorateur de donjons</title>
-    <!-- Le lien vers le main.js -->
-     
+    <title>Donjons</title>
+    <!-- Le lien vers le style.css -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- Le lien vers le main.js -->
     <script type="module" src="./js/main.js"></script>
 </head>
 <body>
-    <h1>Jeu donjons</h1>
+   <header>
+        <!-- Le nom du jeu -->
+        <h1>Jeu donjons</h1>
+   </header>
+     
+    <main>
+        <!-- La barre d'ergeie et le score -->
+        <section id="container-barreEnergie">
+            <div id="bordure-barreEnergie">
+                <!-- La Bordure qui entour l'energie -->
+            </div>
+            <div id="barreEnergie">
+                <!-- ici est afficher la barre d'energie -->
+            </div>
+            
+            <div id="container-score">
+                <p id="indice-score">Score : </p>
+                <p id="afficher-score">
+                    <!-- Ici est affiche le score -->
+                </p>
+            </div>
+        </section>
+        <!-- La fenetre game over -->
+        <section id="container-game-over">
+            <div id="game-over">
+                <h2>
+                    <!-- Ici est afficher le message de game over / OUPS -->
+                </h2>
+                <p>
+                    <!-- Ici est afficher le message vous avez quitte le jeu / le score -->
+                </p>
+                    <input type="submit" value="Réessayer" id="bouton-reessayer" >
+            </div>
+        </section>
 
-    <h2>resultat : </h2>
-    <div>
-       
-    </div>
+        <!-- Le div qui affiche l'image graphique du jeux -->
+        <section id="container-principal">
+            <!-- Ici est afficheé l'image graphique du jeux -->
+
+        </section>
+
+         <!-- Les boutons de direction -->
+        <section id="container-buton">
+            <input type="submit" value="Gauche" id="bouton-gauche" >
+            <input type="submit" value="Droite" id="bouton-droit" >
+            <div id="bouton-haut-et-bas">
+                <input type="submit" value="Haut" id="bouton-haut" >
+                <input type="submit" value="Bas" id="bouton-bas" >
+            </div>
+        </section>
+        <input type="submit" value="Sortir" id="bouton-sortir" >
+    </main>
+
+    <footer>
+       &copy; La Cité Collegiale. by efy
+    </footer>
 </body>
 </html>

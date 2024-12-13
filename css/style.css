@@ -1,0 +1,91 @@
+/* ==== Le main ==== */
+main {
+    position: relative;
+    width: 100%;
+}
+/* ==== Le header ==== */
+header { width: 100%; }
+/* ==== La barre d'energie ==== */
+#container-barreEnergie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#barreEnergie {
+    position: absolute;
+    left: 1px;
+    height: 1.5rem;
+    font-weight: bold;
+}
+#barreEnergie.energiPleine{ background-color: rgba(0, 255, 0, 0.499); }
+#barreEnergie.energiMoyenne{ background-color: rgba(255, 255, 0, 0.486); }
+#barreEnergie.energiePresqueFinie{ background-color: rgba(255, 1, 1, 0.491); }
+#bordure-barreEnergie {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 1.5rem;
+    border: 1px solid;
+}
+/* ==== Le score ==== */
+#container-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 1.5rem;
+    font-size: 3vh;
+}
+/* ==== Alerte game over ==== */
+#container-game-over {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container-game-over.activer { display: flex;  }
+#container-game-over.desactiver { display: none; }
+#game-over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid;
+}
+#game-over p.colorerMessageExit { color: red; }
+#game-over p.decolorerScore { color: black; }
+
+/* ==== Le container où est afficher l'image graphique du jeu ==== */
+#container-principal { margin-top: 1rem; }
+
+/* ==== Dimension des images ==== */
+img { width: 4%; }
+
+/* ==== Les boutons ==== */
+#container-buton {
+    display: flex;
+    justify-content: center;
+}
+#bouton-haut-et-bas {
+    display: flex;
+    flex-direction: column;
+}
+input[type=submit]{
+    margin: 5px;
+    cursor: pointer;
+    padding: 0.5vh;
+}
+ /* ==== Pour une tablette ==== */
+@media  (min-width: 35rem) {
+    main, header{ width: 90%; }
+}
+/* ==== Pour un ordinateur ==== */
+@media  (min-width: 55rem) {
+    main, header{ width: 65%; }
+}
