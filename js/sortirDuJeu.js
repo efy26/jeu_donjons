@@ -1,5 +1,5 @@
-import { etatBouton } from "/js/etatBouton.js"; // import de la fonction etatBouton
-import { gameOver } from "/js/alerteGameOver.js"; // import de la fonction gameOver
+import { etatBouton } from "./etatBouton.js"; // import de la fonction etatBouton
+import { gameOver } from "./alerteGameOver.js"; // import de la fonction gameOver
 import { reinitialiserLeScoreSortie} from "/js/unPiegeOuUnTresor.js"; // import de la fonction reinitialiserLeScoreSortie
 
 // les variables

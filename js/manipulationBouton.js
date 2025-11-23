@@ -1,6 +1,6 @@
-import { orienterPersonnage } from "/js/personnage.js"; // import de la fonction orienterPersonnage
-import { afficherTableau } from "/js/grilles.js"; // import de la fonction afficherTableau
-import { boutonGauche, boutonHaut, boutonBas, boutonDroit } from "/js/etatBouton.js"; // import des boutons de direction
+import { orienterPersonnage } from "./personnage.js"; // import de la fonction orienterPersonnage
+import { afficherTableau } from "./grilles.js"; // import de la fonction afficherTableau
+import { boutonGauche, boutonHaut, boutonBas, boutonDroit } from "./etatBouton.js"; // import des boutons de direction
 
 // Fonction pour manipuler le bouton gauche
 export function manipulationButonGauche() {

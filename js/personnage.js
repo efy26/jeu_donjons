@@ -1,5 +1,5 @@
-import { tailleVeritcale, tailleHorizontale, grilles } from "/js/grilles.js"; // import des variables tailleVeritcale, tailleHorizontale et du tableau principal grilles
-import { verificationTuile } from "/js/unPiegeOuUnTresor.js"; // import de la fonction verificationTuile
+import { tailleVeritcale, tailleHorizontale, grilles } from "./grilles.js"; // import des variables tailleVeritcale, tailleHorizontale et du tableau principal grilles
+import { verificationTuile } from "./unPiegeOuUnTresor.js"; // import de la fonction verificationTuile
 
 // les variable
 export let lignePourPlacerPersonnage = 0;
