@@ -56,5 +56,5 @@ export function orienterPersonnage(orienterPersonnage) {
             break;
     }
     // Ajouter le personnage à la nouvelle position
-    grilles[lignePourPlacerPersonnage][colonnePourPlacerPersonnage] = '/assets/personnage.png';
+    grilles[lignePourPlacerPersonnage][colonnePourPlacerPersonnage] = './assets/personnage.png';
 }
