@@ -1,6 +1,6 @@
 import { etatBouton } from "./etatBouton.js"; // import de la fonction etatBouton
 import { gameOver } from "./alerteGameOver.js"; // import de la fonction gameOver
-import { reinitialiserLeScoreSortie} from "/js/unPiegeOuUnTresor.js"; // import de la fonction reinitialiserLeScoreSortie
+import { reinitialiserLeScoreSortie} from "./unPiegeOuUnTresor.js"; // import de la fonction reinitialiserLeScoreSortie
 
 // les variables
 let boutonSortir = document.getElementById("bouton-sortir"); // selection bouton sortir
