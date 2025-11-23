@@ -2,8 +2,8 @@ let containerAfficherJeu = document.getElementById("container-principal"); // Le
 const pourcentagePiege = 90; // Pourcentage de pièges
 export const tailleVeritcale = 15; // Nombre de lignes
 export const tailleHorizontale = 25; // Nombre de colonnes
-export  let piege = "assets/danger.png" // url image piege
-export  let tresor = "assets/coin.png" // url image tresor
+export  let piege = "./assets/danger.png" // url image piege
+export  let tresor = "./assets/coin.png" // url image tresor
 /**
  * @type {grilles[]} Tableau principal
  */

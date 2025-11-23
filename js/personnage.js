@@ -10,7 +10,7 @@ export function placerPersonnageAuCentre() {
     lignePourPlacerPersonnage = Math.floor(tailleVeritcale / 2);
     colonnePourPlacerPersonnage = Math.floor(tailleHorizontale / 2);
 
-    grilles[lignePourPlacerPersonnage][colonnePourPlacerPersonnage] = '/assets/personnage.png';
+    grilles[lignePourPlacerPersonnage][colonnePourPlacerPersonnage] = './assets/personnage.png';
 }
 
 
