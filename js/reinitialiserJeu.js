@@ -1,9 +1,9 @@
-import { manipulationTableau, afficherTableau } from "/js/grilles.js"; // import de la fonction manipulationTableau et afficherTableau
-import { placerPersonnageAuCentre } from "/js/personnage.js"; // import de la fonction placerPersonnageAuCentre
-import { etatBouton } from "/js/etatBouton.js"; // import de la fonction etatBouton
-import { gameOver } from "/js/alerteGameOver.js"; // import de la fonction gameOver
-import { reinitialiserLeScore} from "/js/unPiegeOuUnTresor.js"; // import de la fonction reinitialiserLeScore
-import { reinitialiserBarreEnergie} from "/js/manipulationBarreEnergie.js"; // import de la fonction reinitialiserBarreEnergie
+import { manipulationTableau, afficherTableau } from "./grilles.js"; // import de la fonction manipulationTableau et afficherTableau
+import { placerPersonnageAuCentre } from "./personnage.js"; // import de la fonction placerPersonnageAuCentre
+import { etatBouton } from "./etatBouton.js"; // import de la fonction etatBouton
+import { gameOver } from "./alerteGameOver.js"; // import de la fonction gameOver
+import { reinitialiserLeScore} from "./unPiegeOuUnTresor.js"; // import de la fonction reinitialiserLeScore
+import { reinitialiserBarreEnergie} from "./manipulationBarreEnergie.js"; // import de la fonction reinitialiserBarreEnergie
 
 let boutonReessayer = document.getElementById("bouton-reessayer"); // selection du bouton reessayer
 

@@ -1,6 +1,6 @@
-import { grilles, piege } from "/js/grilles.js"; // import Tableau principal grille et de la variable piege
-import { lignePourPlacerPersonnage, colonnePourPlacerPersonnage } from "/js/personnage.js"; // import de la variable lignePourPlacerPersonnage et colonnePourPlacerPersonnage
-import { diminutionEnergie } from "/js/manipulationBarreEnergie.js"; // import de la fonction diminutionEnergie et de la variable energieEnlevee
+import { grilles, piege } from "./grilles.js"; // import Tableau principal grille et de la variable piege
+import { lignePourPlacerPersonnage, colonnePourPlacerPersonnage } from "./personnage.js"; // import de la variable lignePourPlacerPersonnage et colonnePourPlacerPersonnage
+import { diminutionEnergie } from "./manipulationBarreEnergie.js"; // import de la fonction diminutionEnergie et de la variable energieEnlevee
 
 export let afficherScore = document.getElementById("afficher-score"); // recuperation de la balise qui va afficher le score
 const gameOverScore =document.querySelector("#game-over p"); // Où est afficher le score lors de game over
